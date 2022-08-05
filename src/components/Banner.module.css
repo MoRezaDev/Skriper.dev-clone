@@ -1,0 +1,132 @@
+.container {
+  margin-top: 100px;
+  text-align: center;
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+
+.main img {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.gradientContainer {
+  font-size: 2.5rem;
+  background: var(--banner-bg-gradient-color);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.main > h2 {
+  color: #eee;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.image1Banner {
+  width: 80%;
+  height: 80%;
+  margin: auto;
+}
+
+.image1Banner img {
+  width: 100%;
+  height: 100%;
+}
+
+.contentSection {
+  width: 70%;
+  margin: auto;
+}
+
+.contentSection p,
+.contentSection h3,
+.contentSection h1 {
+  color: var(--nav-font-color);
+  margin-bottom: 35px;
+  text-align: left;
+}
+.contentSectionInner p,
+h1 {
+  margin: 5px;
+}
+.contentSectionInner p {
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+.contentSectionInner h1 {
+  font-size: 2rem;
+}
+
+.contentSectionInner {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.contentSectionInnerImage {
+  width: 60%;
+  height: 60%;
+  position: relative;
+  top: 75px;
+}
+
+.contentSectionInnerImage img {
+  width: 100%;
+  height: 100%;
+}
+
+.contentSectionCards {
+  margin-bottom: 50px;
+}
+
+@media (max-width: 1500px) {
+  .gradientContainer {
+    width: 900px;
+    height: 240px;
+  }
+  .main > h2 {
+    width: 720px;
+  }
+  .image1Banner {
+    width: 730px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .main {
+    width: 90%;
+  }
+  .gradientContainer {
+    width: 90%;
+  }
+  .main > h2 {
+    width: 90%;
+  }
+  .image1Banner {
+    width: 85%;
+  }
+
+  .contentSection {
+    width: 90%;
+  }
+}
+
+@media (max-width: 850px) {
+  .contentSectionInner {
+    flex-direction: column;
+  }
+  .contentSectionInnerImage {
+    top: 0;
+  }
+}

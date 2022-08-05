@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+
+.container h2 {
+  color: #eee;
+}
+
+.cardImage {
+  /* width: 250px;
+  height: 85px; */
+}
+
+.cardImage img {
+  width: 250px;
+  height: 95px;
+}
+
+.cardContent {
+  position: relative;
+  top: 10px;
+  width: 70%;
+}
+
+@media (max-width: 850px) {
+  .container {
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+  }
+  .cardContent {
+    top: 0;
+    width: 90%;
+  }
+}
