@@ -1,0 +1,74 @@
+.mainContainer {
+  width: 400px;
+  height: 550px;
+  margin: 100px auto;
+  border-radius: 10px;
+  background-color: #fe6601;
+  padding: 20px 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mainContainer span {
+  padding: 0 10px;
+  color: black;
+  font-size: 12px;
+}
+
+.mainContainer > h1 {
+  text-align: center;
+  color: #eee;
+  margin-bottom: 20px;
+}
+
+.mainContainer input {
+  width: 250px;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  display: block;
+}
+
+.privacyChecked {
+  text-align: center;
+}
+
+.privacyChecked > input {
+  width: 20px;
+  display: inline;
+}
+
+.buttons button {
+  text-decoration: none;
+  font-size: 16px;
+  color: #eee;
+  padding: 10px 20px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.buttons p {
+  text-align: center;
+  font-size: 12px;
+}
+.buttons p a {
+  margin: 0 5px;
+  text-decoration: none;
+  color: #eee;
+}
+
+@media (max-width: 420px) {
+  .mainContainer {
+    width: 95%;
+  }
+}

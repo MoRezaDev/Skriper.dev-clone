@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 //import styles...
 import styles from "./Navbar.module.css";
@@ -16,43 +17,42 @@ const Navbar = () => {
   return (
     <header className={styles.container}>
       <div className={styles.navbarContainer}>
-        <img src={headerLogo} />
+        <Link to="/">
+          <img src={headerLogo} />
+        </Link>
         <div className={styles.navbarRightItems}>
-        <ul>
-          <li>
-            <a>
-              <img src={fire} />
-              <span>Trends</span>
+          <ul>
+            <li>
+              <Link to="/trends">
+                <img src={fire} />
+                <span>Trends</span>
+              </Link>
+            </li>
+            <li>
+              <a>
+                <img src={star} />
+                <span>Featured</span>
+              </a>
+            </li>
+            <li>
+              <a>
+                <img src={time} />
+                <span>Lastest</span>
+              </a>
+            </li>
+          </ul>
+          <div className={styles.NavbarButtons}>
+            <a href="https://skriper.dev/create?new=true" target="_blank">
+              <img src={sign} />
+              <span>Start Coding</span>
             </a>
-          </li>
-          <li>
-            <a>
-              <img src={star} />
-              <span>Featured</span>
-            </a>
-          </li>
-          <li>
-            <a>
-              <img src={time} />
-              <span>Lastest</span>
-            </a>
-          </li>
-        </ul>
-        <div className={styles.NavbarButtons}>
-          <a>
-            <img src={sign} />
-            <span>Start Coding</span>
-          </a>
-          <a>
-            <img src={login} />
-            <span>Login</span>
-          </a>
-          <a>
-            <img src={search} />
-          </a>
+            <Link to="/login">
+              <img src={login} />
+              <span>Login</span>
+            </Link>
+            <Link to="/signup">Sign Up</Link>
+          </div>
         </div>
-        </div>
-       
       </div>
     </header>
   );

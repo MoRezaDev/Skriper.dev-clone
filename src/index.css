@@ -11,6 +11,7 @@
     #eb5757 71.08%,
     #f2994a 87.36%
   );
+  --trend-nav-container: rgba(37, 37, 37, 0.8);
 }
 * {
   margin: 0;

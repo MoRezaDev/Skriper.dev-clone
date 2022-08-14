@@ -1,0 +1,99 @@
+.container {
+  width: 325px;
+  height: 387px;
+  background-color: #252525;
+  animation: tr 1s linear;
+}
+@keyframes tr {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.cardImage {
+  width: 90%;
+  height: 40%;
+  margin: 20px auto;
+}
+
+.cardImage img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease;
+}
+.cardImage img:hover {
+  transform: scale(1.1);
+}
+
+.cardContent {
+  width: 90%;
+  margin: auto;
+  padding: 0 5px;
+}
+
+.cardContent span {
+  color: #eee;
+  font-size: 14px;
+  background: var(--nav-button-bg-color);
+  padding: 0 5px;
+  border-radius: 2px;
+}
+
+.cardContent p {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.cardAuthor {
+  width: 90%;
+  margin: 30px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #eee;
+  font-size: 14px;
+}
+
+.cardDetailsContainer {
+  margin-top: 20px;
+  background-color: hsla(0, 0%, 100%, 0.05);
+  width: 100%;
+  height: 60px;
+  padding: 10px;
+}
+
+.cardDetails {
+  background-color: hsla(0, 0%, 100%, 0.1);
+  width: 100%;
+  height: 100%;
+  border-radius: 2px;
+  padding: 10px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardDetails > div {
+  color: #eee;
+  font-size: 14px;
+}
+
+.cardDetailsItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.cardDetailsItem:nth-child(2) {
+  padding: 0 30px;
+  border-right: 2px solid #252525;
+  border-left: 2px solid #252525;
+}
+
+.cardDetailsItem:last-child img {
+  position: relative;
+  bottom: 1px;
+}

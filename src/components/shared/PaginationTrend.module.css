@@ -1,0 +1,29 @@
+.sliderNavigation {
+  width: 90%;
+  margin: 20px auto;
+  background-color: var(--trend-nav-container);
+  height: 65px;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sliderNavItemsContainer {
+  display: flex;
+  gap: 10px;
+}
+
+.sliderNavItems {
+  background-color: hsla(0, 0%, 100%, 0.04);
+  padding: 10px 13px;
+  color: #eee;
+  padding: 10px 22px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.sliderNavItems:hover {
+  transform: scale(1.1);
+}

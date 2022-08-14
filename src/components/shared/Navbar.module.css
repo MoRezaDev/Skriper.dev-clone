@@ -3,6 +3,9 @@
   height: 50px;
   color: var(--nav-font-color);
   background-color: var(--nav-bg-color);
+  position: fixed;
+  top: 0;
+  opacity: 0.9;
 }
 
 .navbarContainer {
@@ -11,8 +14,11 @@
   justify-content: space-between;
   align-items: center;
 }
+.navbarContainer a {
+  cursor: pointer;
+}
 
-.navbarContainer > img {
+.navbarContainer > a > img {
   vertical-align: middle;
 }
 
@@ -65,6 +71,8 @@
   font-weight: bold;
   border-radius: 2px;
   transition: opacity 0.4s ease;
+  text-decoration: none;
+  color: #eee;
 }
 
 .NavbarButtons > a:hover {
@@ -76,6 +84,8 @@
 }
 
 .NavbarButtons > a:nth-child(2) {
+  color: #eee;
+  text-decoration: none;
   background-color: #000000;
   padding: 5px 15px;
   margin-right: 30px;
@@ -90,6 +100,8 @@
 }
 
 .NavbarButtons > a:nth-child(3) {
+  color: #eee;
+  text-decoration: none;
   padding: 5px 15px;
   background-color: #000000;
   border: 1px solid black;
@@ -100,8 +112,6 @@
 .NavbarButtons img {
   vertical-align: middle;
 }
-
-
 
 @media (max-width: 800px) {
   .navbarContainer ul {

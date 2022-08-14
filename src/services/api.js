@@ -36,4 +36,79 @@ const CardsApi = [
   },
 ];
 
-export { images, CardsApi };
+const TrendCardApi = [
+  {
+    image:
+      "https://s3.amazonaws.com/skriper.dev/4dee95b0-e982-11ec-bc01-3e1f65d5a184/kz97RhB?v=1659690067188",
+    title: "Animation the button",
+    author: "Kevin Wilian",
+  },
+  {
+    image:
+      "https://s3.amazonaws.com/skriper.dev/4dee95b0-e982-11ec-bc01-3e1f65d5a184/kz97RhB?v=1659690067188",
+    title: "Animation the button",
+    author: "Kevin Wilian",
+  },
+  {
+    image:
+      "https://s3.amazonaws.com/skriper.dev/4dee95b0-e982-11ec-bc01-3e1f65d5a184/kz97RhB?v=1659690067188",
+    title: "Animation the button",
+    author: "Kevin Wilian",
+  },
+  {
+    image:
+      "https://s3.amazonaws.com/skriper.dev/4dee95b0-e982-11ec-bc01-3e1f65d5a184/kz97RhB?v=1659690067188",
+    title: "Animation the button",
+    author: "Kevin Wilian",
+  },
+  {
+    image:
+      "https://s3.amazonaws.com/skriper.dev/4dee95b0-e982-11ec-bc01-3e1f65d5a184/kz97RhB?v=1659690067188",
+    title: "Animation the button",
+    author: "Kevin Wilian",
+  },
+  {
+    image:
+      "https://s3.amazonaws.com/skriper.dev/4dee95b0-e982-11ec-bc01-3e1f65d5a184/kz97RhB?v=1659690067188",
+    title: "Animation the button",
+    author: "Kevin Wilian",
+  },
+  {
+    image:
+      "https://s3.amazonaws.com/skriper.dev/4dee95b0-e982-11ec-bc01-3e1f65d5a184/kz97RhB?v=1659690067188",
+    title: "Animation the button",
+    author: "Kevin Wilian",
+  },
+  {
+    image:
+      "https://s3.amazonaws.com/skriper.dev/4dee95b0-e982-11ec-bc01-3e1f65d5a184/kz97RhB?v=1659690067188",
+    title: "Animation the button",
+    author: "Kevin Wilian",
+  },
+  {
+    image:
+      "https://s3.amazonaws.com/skriper.dev/4dee95b0-e982-11ec-bc01-3e1f65d5a184/kz97RhB?v=1659690067188",
+    title: "Animation the button",
+    author: "Kevin Wilian",
+  },
+  {
+    image:
+      "https://s3.amazonaws.com/skriper.dev/4dee95b0-e982-11ec-bc01-3e1f65d5a184/kz97RhB?v=1659690067188",
+    title: "Animation the button",
+    author: "Kevin Wilian",
+  },
+  {
+    image:
+      "https://s3.amazonaws.com/skriper.dev/4dee95b0-e982-11ec-bc01-3e1f65d5a184/kz97RhB?v=1659690067188",
+    title: "Animation the button",
+    author: "Kevin Wilian",
+  },
+  {
+    image:
+      "https://s3.amazonaws.com/skriper.dev/4dee95b0-e982-11ec-bc01-3e1f65d5a184/kz97RhB?v=1659690067188",
+    title: "Animation the button",
+    author: "Kevin Wilian",
+  },
+];
+
+export { images, CardsApi,TrendCardApi };
